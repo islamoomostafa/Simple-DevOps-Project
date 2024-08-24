@@ -1,21 +1,18 @@
-# .github/workflows/deploy.yml
-name: Deploy Application
+name: Deploy
 
 on:
+  workflow_dispatch:  # Add this line to enable manual triggering
+  # other triggers, e.g., push, pull_request, etc.
   push:
     branches:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    
-    - name: Build Docker image
-      run: docker build . -t my-app
-    
-    - name: Run Docker container
-      run: docker run -d -p 5000:5000 my-app
+    - name: Deploy
+      run: echo "Deploying..."
+      # Add your deploy steps here
