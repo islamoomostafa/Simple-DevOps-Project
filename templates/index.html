@@ -57,6 +57,45 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0.5rem;
+            }
+            header {
+                padding: 0.5rem;
+            }
+            footer {
+                padding: 0.5rem;
+            }
+            .section {
+                margin: 0.5rem 0;
+                padding: 0.5rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            header, footer {
+                padding: 0.25rem;
+            }
+            .section {
+                margin: 0.25rem 0;
+                padding: 0.25rem;
+            }
+            h1 {
+                font-size: 1.25rem;
+            }
+            h2 {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -82,7 +121,7 @@
         </div>
     </div>
     <footer>
-        <p>&copy; Islam 20222222222224</p>
+        <p>&copy; Islam 2024</p>
     </footer>
 </body>
 </html>
