@@ -3,36 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App</title>
+    <title>Project Details</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
         }
         h1 {
-            color: #007BFF;
+            color: #333;
+        }
+        h2 {
+            color: #555;
         }
         p {
-            font-size: 18px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, World!</h1>
-        <p>Welcome to your Flask app with some basic HTML and CSS styling.</p>
-    </div>
+    <h1>Project Details</h1>
+    
+    <h2>Introduction</h2>
+    <p>In this project, I set up a complete development environment on AWS EC2. The project began with creating an Ubuntu instance, where I installed Jenkins, Docker, and Flask to develop a small Python application.</p>
+    
+    <h2>Steps Taken</h2>
+    
+    <h3>1. Setting Up AWS EC2 Instance</h3>
+    <p>Created an Ubuntu instance on AWS EC2 to serve as the base environment for developing the application.</p>
+    
+    <h3>2. Installing Jenkins, Docker, and Flask</h3>
+    <p>Installed Jenkins, Docker, and Flask on the instance to enhance the development and deployment process.</p>
+    
+    <h3>3. Configuring Jenkins Pipeline</h3>
+    <p>Created a Jenkins Pipeline to link the project to GitHub and execute build, install, and run steps for the application.</p>
+    
+    <h3>4. Managing Dependencies Without Docker</h3>
+    <p>Started with a requirements file to manage dependencies for running the application without using Docker.</p>
+    
+    <h3>5. Enhancing the Project with Docker</h3>
+    <p>Enhanced the project by using Docker to simplify environment management and standardization. Created a Dockerfile to build a Docker image for the application.</p>
+    
+    <h3>6. Pushing the Docker Image to Docker Hub</h3>
+    <p>Built a Docker image of the project and pushed it to Docker Hub to make it available for future use.</p>
+    
+    <h2>Project Outcomes</h2>
+    <p>Successfully set up a comprehensive development environment using AWS, Jenkins, Docker, and Flask, which improved project management and simplified deployment and future use.</p>
+    
 </body>
 </html>
