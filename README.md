@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/ffbb6d60-6be5-41fc-a8cb-dcaf6e76a36b)
+
+
 # Simple DevOps Project
 
 ![Flask Application](https://img.shields.io/badge/Flask-2.0-blue)
