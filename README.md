@@ -1,4 +1,7 @@
 ![image](https://github.com/user-attachments/assets/ffbb6d60-6be5-41fc-a8cb-dcaf6e76a36b)
+![image](https://github.com/user-attachments/assets/bd1180ad-19a6-4958-937d-f1a8bca9b46d)
+![image](https://github.com/user-attachments/assets/06cd3e58-9fd4-45fe-ab33-03d08527bb46)
+![image](https://github.com/user-attachments/assets/609edd7c-efc4-43c3-8158-8deae5383023)
 
 
 # Simple DevOps Project
