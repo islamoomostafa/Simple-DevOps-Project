@@ -1,9 +1,3 @@
-![image](https://github.com/user-attachments/assets/ffbb6d60-6be5-41fc-a8cb-dcaf6e76a36b)
-![image](https://github.com/user-attachments/assets/bd1180ad-19a6-4958-937d-f1a8bca9b46d)
-![image](https://github.com/user-attachments/assets/06cd3e58-9fd4-45fe-ab33-03d08527bb46)
-![image](https://github.com/user-attachments/assets/609edd7c-efc4-43c3-8158-8deae5383023)
-
-
 # Simple DevOps Project
 
 ![Flask Application](https://img.shields.io/badge/Flask-2.0-blue)
@@ -14,6 +8,13 @@
 ## Overview
 
 This is a **Simple DevOps Project** where I have automated the build, push, and deployment processes for a Flask application using Jenkins, Docker, and AWS EC2. The project demonstrates continuous integration and delivery (CI/CD) practices by integrating Jenkins with GitHub to automatically trigger a pipeline whenever changes are made to the codebase.
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/ffbb6d60-6be5-41fc-a8cb-dcaf6e76a36b)
+![image](https://github.com/user-attachments/assets/bd1180ad-19a6-4958-937d-f1a8bca9b46d)
+![image](https://github.com/user-attachments/assets/06cd3e58-9fd4-45fe-ab33-03d08527bb46)
+![image](https://github.com/user-attachments/assets/609edd7c-efc4-43c3-8158-8deae5383023)
+
 
 ## Project Steps
 
